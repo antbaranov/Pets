@@ -1,7 +1,11 @@
 public class Spider extends Pet {
     protected Spider() {
-        super("Фыр");
+        super(8);
     }
 
+    @Override
+    public void giveVoice() {
+        System.out.println("ШШШШ");
+    }
 
 }
