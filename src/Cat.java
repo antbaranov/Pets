@@ -7,9 +7,5 @@ public class Cat extends Pet {
         System.out.println("Поймала мышку!");
     }
 
-    @Override
-    public String getGiveVoice() {
-        return voice;
-    }
 
 }
